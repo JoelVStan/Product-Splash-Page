@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Splash Page</title>
+</head>
+<body class="font-Source_Sans text-[#404040] wide:flex box-border">
+    <!-- intro -->
+    <section class="text-white bg-[#9480e4] bg-[url('/images/intro-bg.png')] bg-cover flex flex-col min-h-[250px] text-center justify-between pb-[1.5em] px-[2em] wide:w-1/2 wide:min-h-[100vh]">
+        <h1 class="font-normal text-[2.5rem] drop-shadow wide:text-[5vw]">Turn <strong>your picture</strong> into an iconic <strong>Scrimba avatar</strong></h1>
+        <!-- beta-text -->
+        <span class="font-black uppercase wide:text-[1.25rem]">Currently in Beta</span>
+        <!-- top-text -->
+        <p class="text-[0.875rem] font-black pt-[0.25rem] border-t-4 border-solid uppercase my-0 mx-auto order-first">Powered by Scrimba</p>
+    </section>
+    
+    <!-- main-content -->
+    <main class="flex flex-col items-center pt-[2.5em] px-[2em] wide:w-1/2 wide:justify-center wide:pt-0">
+        <!-- img-main -->
+        <img class="w-[120px] rounded-full" src="images/avatar.png" alt="My Scrimba avatar.">
+        <h2 class="font-black text-[2.25rem] my-[0.167em] mx-0 wide:text-[2.625rem]">Scrimbafy.me</h2>
+        <!-- subheading -->
+        <span class="text-[#575757] font-bold mb-[0.75em] uppercase">Liven up your profile pic</span>
+        
+        <p class="text-[1.125rem] leading-6 mb-4 max-w-[450px]">The colorful and iconic Scrimba avatars are no longer just for members of the Scrimba team and its Avengers-caliber group of code reviewers. You can Scrimbafy your photo today!</p>
+
+        <form class="max-w-[450px]">
+            <input class="text-inherit w-full mb-3 p-2 border border-solid border-[#d1d5db] rounded focus:outline-none focus:border-[#8a71ec] focus:bg-[#e6e8ec]" type="text" required placeholder="Name" aria-label="Name">
+            <input class="text-inherit w-full mb-3 p-2 border border-solid border-[#d1d5db] rounded focus:outline-none focus:border-[#8a71ec] focus:bg-[#e6e8ec]" type="email" required  placeholder="Email" aria-label="Email">
+            <input class="text-inherit w-full mb-3 p-2 border border-solid border-[#d1d5db] rounded focus:outline-none focus:border-[#8a71ec] focus:bg-[#e6e8ec]" type="file" required accept="image/png, image/jpg" aria-label="Choose file">
+            <!-- btn, btn-primary -->
+            <button class="w-full font-black uppercase bg-[#8a71ec] text-[0.75rem] text-white tracking-widest p-3 mt-3 rounded hover:bg-[#b7a7f6] focus:hover:bg-[#b7a7f6]">Submit</button>
+        </form>   
+        <!-- fine-print -->
+        <p class="text-[0.75rem] tracking-[0.5px] text-[#858585] mt-2">We'll never share your information without permission</p>
+    </main>
+</body>
+</html>
